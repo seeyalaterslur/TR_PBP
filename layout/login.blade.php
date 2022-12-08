@@ -30,14 +30,14 @@
 									<label for="password" class="form-label ">Password</label>
 									<input type="password" class="form-control" id="password" placeholder="*******">
 								</div>
-								<p class="small"><a class="text-primary" href="forget-password.html">Forgot password?</a></p>
+								<p class="small"><a class="text-primary" href="#">Forgot password?</a></p>
 								<div class="d-grid">
-									<button class="btn btn-outline-dark" type="submit">Login</button>
+									<button class="btn btn-outline-primary" type="submit">Submir</button>
 									<link rel="stylesheet" href="{{url('layout.main')}}">
 								</div>
 							</form>
 							<div>
-								<p class="mb-0  text-center">Don't have an account? <a href="signup.html" class="text-primary fw-bold">Sign
+								<p class="mb-0  text-center">Don't have an account? <a href="{{url('layout.regis')}}" class="text-primary fw-bold">Sign
 										Up</a></p>
 							</div>
 						</div>
